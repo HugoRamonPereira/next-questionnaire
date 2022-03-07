@@ -1,0 +1,43 @@
+.answer {
+   display: flex;
+   min-width: 500px;
+   width: 80%;
+   height: 100px;
+   margin: .8rem;
+}
+
+.answerContent {
+   position: relative;
+   display: flex;
+   flex: 1;
+}
+
+.front, .back {
+   position: absolute;
+   display: flex;
+   height: 100%;
+   width: 100%;
+}
+
+.front {
+   align-items: center;
+   color: #000;
+   border-radius: 2rem;
+   padding: 1rem;
+   background-color: #fff;  
+}
+
+.alternative {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+   border-radius: 5rem;
+   font-size: 1.3rem;
+   margin-right: 1rem;
+}
+
+.value {
+   font-size: 1.3rem;
+}
