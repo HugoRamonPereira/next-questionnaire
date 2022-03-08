@@ -22,9 +22,30 @@
 .front {
    align-items: center;
    color: #000;
-   border-radius: 2rem;
+   border-radius: 1rem;
    padding: 1rem;
    background-color: #fff;  
+}
+
+.back > div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex: 1;
+   border-radius: 1rem;
+} 
+
+.correct {
+   background-color: #2baa6d;
+}
+
+.incorrect {
+   background-color: #e44a4c;
+}
+
+.correct .value, .incorrect .value {
+   font-size: 1.6rem;
 }
 
 .alternative {
@@ -36,6 +57,7 @@
    border-radius: 5rem;
    font-size: 1.3rem;
    margin-right: 1rem;
+   color: #fff;
 }
 
 .value {
